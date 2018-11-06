@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="description" content="This is a simple Roman Numeral Converter using plain and pure javascript.">
+  <meta name="author" content="Alex Disdier">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="images/default-favicon.png" />
+
+  <title>Roman Numeral Converter</title>
+  <link rel="stylesheet" href="styles/normalize.min.css" />
+  <link rel="stylesheet" href="styles/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles/main.min.css" />
+</head>
+
+<body>
+
+  <div id="app">
+    <header>
+      <h1>Roman Numeral Converter</h1>
+    </header>
+    <form>
+      <label for="js-convertToRoman-value">Type a number</label>
+      <input class="bttn" type="number" placeholder="13" name="convertToRoman" id="js-convertToRoman-value">
+      <a href="#0" class="bttn" onclick="convertToRoman(document.getElementById('js-convertToRoman-value').value)">Submit</a>
+    </form>
+
+    <div id="result">
+
+    </div>
+  </div><!-- .app -->
+
+  <script src="scripts/main.min.js"></script>
+
+</body>
+
+</html>
