@@ -11,19 +11,15 @@ function convertToRoman(num){}
 ```
 Within that function, I created two arrays:
 1. arrNum which represents decimals.
-2. arrRoman which represents the Roman Numerals equivalent. the
+2. arrRoman which represents the Roman Numerals equivalent.
 ```javascript
 var arrNum = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
 var arrRoman = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
 ```
-I initialize an empty string variable "result", which will house the final roman number.
+I initialized an empty string variable "result", which will house the final roman number.
 ```javascript
 var result = '';
 ```
-Using a for loop, we loop through the indicies of the decimalValue array. We continue to loop until while the value at the current index will fit into num.
-Next, we add the roman numeral and decrease num by the decimal equivalent.
-Finally, we return the value of romanized.
-
 I then ran a for loop and a while loop. This will keep running until the current index will fit into num. Next, I add the roman numeral and decrease num by the decimal equivalent.
 ```javascript
 for (var i = 0; i < arrNum.length; i++) {
@@ -51,7 +47,6 @@ See a live version - https://alexdisdier.github.io/roman-numeral-converter/
 ## Directory Structure
 
 ```bash
--------------------------------------------
 
 ├── build
 │   ├── images
@@ -88,4 +83,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-This is part of JavaScript Algorithms and Data Structures Projects in order to get the certification from [FreeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter)
+This is part of **JavaScript Algorithms and Data Structures Projects** in order to get the certification from [FreeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter)
