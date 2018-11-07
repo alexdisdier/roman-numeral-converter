@@ -35,8 +35,6 @@ return document.getElementById("result").innerHTML = result;
 ```
 
 **Relevant Links**
-For Loops
-While Loops
 1. [For Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 2. [While Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 
