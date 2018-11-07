@@ -77,10 +77,6 @@ See a live version - https://alexdisdier.github.io/roman-numeral-converter/
 
 **Alex Disdier** - *Initial work* - [alexdisdier](https://github.com/alexdisdier)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 This is part of **JavaScript Algorithms and Data Structures Projects** in order to get the certification from [FreeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter)
